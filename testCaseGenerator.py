@@ -13,7 +13,7 @@ def SingleNumber(filename, n, minVal, maxVal, dataType):
             x = random.uniform(minVal, maxVal)
             x = round(x,2)
             a.add(x)
-    file = open(filename,"w+")
+    file = open("TestCases/"+filename,"w+")
     for x in a:
         file.write(str(x) + "\n")
     file.close()
