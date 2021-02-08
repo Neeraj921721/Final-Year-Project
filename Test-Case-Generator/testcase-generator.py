@@ -89,9 +89,9 @@ def main():
             maxVal = float(input("Maximum Value: "))
         ArrayGenerate(fileName, n, dimen,minVal, maxVal, dataType)
     elif choose==3:
-        StringGenerate(fileName, n )
+        StringGenerate(fileName, n)
     else:
-        CharacterGenerate(fileName)
+        CharacterGenerate(fileName, n)
 
 #-----------------------------------------------------------------------------------------------------------
 if __name__ == '__main__':
